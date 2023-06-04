@@ -63,7 +63,6 @@ class HyundaiFlags(IntFlag):
   SEND_LFA = 128
   USE_FCA = 256
 
-
 class CAR:
   # Hyundai
   ELANTRA = "HYUNDAI ELANTRA 2017"
