@@ -1722,25 +1722,12 @@ FW_VERSIONS = {
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1030 662',
       b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1040 663',
-      b'\xf1\x00NQ5 FR_CMR AT USA LHD 1.00 1.00 99211-P1060 665',
     ],
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00NQ5__               1.00 1.02 99110-P1000         ',
       b'\xf1\x00NQ5__               1.00 1.03 99110-P1000         ',
       b'\xf1\x00NQ5__               1.01 1.03 99110-P1000         ',
     ],
-     (Ecu.transmission, 0x7E1, None): [
-      b'\xf1\x00PSBG2441  G19\x00\x00\x00\x00\x00\x00\x00SNQ5T16XXHS01NS04\xdc_\xfb',
-    ],
-     (Ecu.eps, 0x7D4, None): [
-      b'\xf1\x00NQ5 MDPS C 1.00 1.04 56300-CH000 2322',
-    ],
-     (Ecu.cornerRadar, 0x7B7, None): [
-     b'\xf1\x00NQ5 BCW RR 2.00 , 1.00 (\x80T9"\x034\x00t',
-    ],
-     (Ecu.engine, 0x7B7, None): [
-     b'\xf1\x87391312MAD0',
-    ],   
   },
   CAR.GENESIS_GV70_1ST_GEN: {
     (Ecu.fwdCamera, 0x7c4, None): [
